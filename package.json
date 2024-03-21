@@ -1,0 +1,47 @@
+{
+  "name": "adonis-ally-tiktok",
+  "version": "1.0.0",
+  "description": "An ally driver for TikTok",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "build/index.js",
+    "build/index.d.ts",
+    "build/src"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext=.ts",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "pretest": "npm run lint",
+    "build": "tsc"
+  },
+  "keywords": [
+    "social-auth",
+    "adonisjs-ally",
+    "adonisjs"
+  ],
+  "author": "monojson <shq.shenhuaqing@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@adonisjs/ally": "^5.0.0-7",
+    "@adonisjs/core": "^6.1.5-32",
+    "@adonisjs/eslint-config": "^1.1.9",
+    "@adonisjs/prettier-config": "^1.1.9",
+    "@adonisjs/tsconfig": "^1.1.9",
+    "@poppinss/oauth-client": "^5.1.2",
+    "@poppinss/utils": "^6.7.1",
+    "@types/node": "^20.11.5",
+    "@swc/core": "^1.3.99",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "peerDependencies": {
+    "@adonisjs/ally": "^5.0.0-7",
+    "@adonisjs/core": "^6.1.5-32"
+  },
+  "eslintConfig": {
+    "extends": "@adonisjs/eslint-config/package"
+  },
+  "prettier": "@adonisjs/prettier-config"
+}
