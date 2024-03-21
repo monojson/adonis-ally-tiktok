@@ -2,12 +2,10 @@
   "name": "adonis-ally-tiktok",
   "version": "1.0.1",
   "description": "An ally driver for TikTok",
-  "main": "index.js",
+  "main": "build/index.js",
   "type": "module",
   "files": [
-    "build/index.js",
-    "build/index.d.ts",
-    "build/src"
+    "build"
   ],
   "scripts": {
     "lint": "eslint . --ext=.ts",
