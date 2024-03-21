@@ -1,6 +1,6 @@
 {
   "name": "adonis-ally-tiktok",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "An ally driver for TikTok",
   "main": "build/index.js",
   "type": "module",
