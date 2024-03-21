@@ -12,13 +12,7 @@ Install the package from your command line.
 npm install --save adonis-ally-tiktok
 ```
 
-### 2. Configure the package
-
-```bash
-node ace configure adonis-ally-tiktok
-```
-
-### 3. Validate environment variables
+### 2. Validate environment variables
 
 ```ts
 TIKTOK_CLIENT_ID: Env.schema.string(),
@@ -26,7 +20,7 @@ TIKTOK_CLIENT_SECRET: Env.schema.string(),
 TIKTOK_REDIRECT_CALLBACK: Env.schema.string(),
 ```
 
-### 4. Add variables to your ally configuration
+### 3. Add variables to your ally configuration
 
 ```ts
 const allyConfig: AllyConfig = {
